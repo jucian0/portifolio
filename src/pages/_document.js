@@ -51,7 +51,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="og:image"
-            content="https://www.vipuljha.com/images/banner.png"
+            content="https://www.juciano.com/images/banner.png"
           />
           <meta property="twitter:card" content="summary_large_image" />
           <meta
@@ -64,7 +64,7 @@ export default class MyDocument extends Document {
           />
           <meta
             property="twitter:image"
-            content="https://www.vipuljha.com/images/banner.png"
+            content="https://www.juciano.com/images/banner.png"
           />
         </Head>
         <body>
