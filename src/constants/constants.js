@@ -1,12 +1,12 @@
 export const projects = [
   {
-    title: "useForm",
+    title: "Createform",
     description:
-      "UseForm is an open source project that allows you to create forms easily, different from the others options, this package guides you to create custom hooks to manage your forms, you can use the same form in different components without context API.",
-    image: "/images/use-form.png",
-    tags: ["react", "form", "useform", "use-form"],
-    source: "https://github.com/Jucian0/useform",
-    visit: "https://react-useform.vercel.app",
+      "Createform is an open source project that allows you to create forms easily, different from the others options, this package guides you to create custom hooks to manage your forms, you can use the same form in different components without context API.",
+    image: "/images/createform.png",
+    tags: ["react", "form", "createform", "use-form"],
+    source: "https://github.com/jucian0/createform",
+    visit: "https://useform.org",
     id: 0,
   },
   {
@@ -15,19 +15,29 @@ export const projects = [
       "Engrafia is an open-source project designed to build documentation websites without any effort. Engrafia is built up NextJs, which means that you have the power, and performance of NextJs to build your documentation.",
     image: "/images/engrafia.jpg",
     tags: ["HTML", "CSS", "react", "next", "mdx", "docs"],
-    source: "https://github.com/Jucian0/engrafia",
+    source: "https://github.com/jucian0/engrafia",
     visit: "https://engrafia.vercel.app",
     id: 1,
   },
   {
-    title: "SolidJs createform",
+    title: "SolidJS createform",
     description:
       "Createform is an open-source package to create forms for SolidJS applications. It's based on useForm",
     image: "/images/use-form.png",
     tags: ["forms", "solidjs", "web"],
-    source: "https://github.com/Jucian0/solidjs-createform",
-    visit: "https://github.com/Jucian0/solidjs-createform",
+    source: "https://github.com/jucian0/solidjs-createform",
+    visit: "https://github.com/jucian0/solidjs-createform",
     id: 2,
+  },
+  {
+    title: "Playground",
+    description:
+      "Playground helps you to create awesome components documentations!",
+    image: "/images/playground.png",
+    tags: ["rehype", "playground", "react", "next", "mdx", "docs"],
+    source: "https://github.com/jucian0/playground",
+    visit: "https://reactjs-playground.vercel.app",
+    id: 3,
   },
   {
     title: "useQueryFilter",
@@ -35,9 +45,9 @@ export const projects = [
       "useQueryFilter uses react hook to persist the filter state in a component state and the same state is pushed into the URL.",
     image: "/images/use-form.png",
     tags: ["filter", "react", "forms"],
-    source: "https://github.com/Jucian0/use-query-filter",
-    visit: "https://github.com/Jucian0/use-query-filter",
-    id: 3,
+    source: "https://github.com/jucian0/use-query-filter",
+    visit: "https://github.com/jucian0/use-query-filter",
+    id: 4,
   },
 ];
 
