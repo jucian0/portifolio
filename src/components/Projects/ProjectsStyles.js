@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const Img = styled.img`
   width: 100%;
   height: 100%;
+  border-radius: 6px;
   object-fit: cover;
   overflow: hidden;
 `;
@@ -10,19 +11,17 @@ export const Img = styled.img`
 export const GridContainer = styled.section`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-  padding-top: 3rem;
-  padding-bottom: 3rem;
   place-items: center;
   column-gap: 1rem;
   row-gap: 3rem;
   @media ${(props) => props.theme.breakpoints.sm} {
     display: flex;
     flex-direction: column;
-    padding: 2rem;
     padding-bottom: 1.5rem;
   }
 `;
 export const BlogCard = styled.div`
+padding: 1rem;
   border-radius: 10px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
@@ -45,7 +44,6 @@ export const HeaderThree = styled.h3`
   font-weight: 500;
   letter-spacing: 2px;
   color: #9cc9e3;
-  padding: 0.5rem 0;
   margin-top: 1rem;
   font-size: ${(props) => (props.title ? "3rem" : "2rem")};
 `;
